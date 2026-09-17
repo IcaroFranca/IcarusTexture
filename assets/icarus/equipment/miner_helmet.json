@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "icarus:miner_helmet"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "icarus:miner_helmet"
+      }
+    ]
+  }
+}

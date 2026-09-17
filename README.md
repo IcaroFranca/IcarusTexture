@@ -2,7 +2,7 @@
 
 Resource pack do IcarusRPG para **Minecraft Java 26.2**.
 
-O **Miner Helmet** usa uma textura de `player_head` com transparência real para remover o preenchimento cinza/azulado da cabeça sem apagar as tiras e os detalhes do capacete.
+O **Miner Helmet** usa `minecraft:leather_helmet` como item-base, com item model próprio no inventário e uma textura de equipamento transparente quando vestido. O rosto e a skin do jogador permanecem visíveis sob as tiras e os detalhes do capacete.
 
 A **Undead's Sword** usa um item model customizado (16×16) aplicado pelo IcarusRPG via componente `minecraft:item_model`.
 
@@ -13,22 +13,29 @@ IcarusTexture/
 ├── pack.mcmeta
 └── assets/
     └── icarus/
+        ├── equipment/
+        │   └── miner_helmet.json
         ├── textures/
+        │   ├── entity/equipment/humanoid/
+        │   │   └── miner_helmet.png
         │   ├── heads/
         │   │   └── miner_helmet.png
         │   └── item/
+        │       ├── miner_helmet.png
         │       └── undead_sword.png
         ├── items/
+        │   ├── miner_helmet.json
         │   └── undead_sword.json
         └── models/
             └── item/
+                ├── miner_helmet.json
                 └── undead_sword.json
 ```
 
-O identificador da textura da cabeça é:
+O identificador do item model e do equipamento do capacete é:
 
 ```text
-icarus:heads/miner_helmet
+icarus:miner_helmet
 ```
 
 O identificador do item model da espada é:
@@ -42,7 +49,7 @@ icarus:undead_sword
 Instale o repositório como resource pack ou compacte o conteúdo da raiz em um arquivo ZIP. Ative o pack no Minecraft Java 26.2 e execute:
 
 ```mcfunction
-/give @s minecraft:player_head[minecraft:profile={texture:"icarus:heads/miner_helmet"}]
+/give @s minecraft:leather_helmet[minecraft:item_model="icarus:miner_helmet",minecraft:equippable={slot:"head",asset_id:"icarus:miner_helmet"}]
 /give @s minecraft:iron_sword[minecraft:item_model="icarus:undead_sword"]
 ```
 
@@ -52,10 +59,10 @@ Teste a cabeça no inventário, na mão, colocada no mundo e equipada pelo jogad
 
 - Minecraft Java 26.2 (`pack_format` 88)
 - namespace `icarus`
-- textura V2 da cabeça em PNG 64×64 com canal alpha; textura da espada em PNG 16×16 com canal alpha
+- textura equipada do capacete em PNG 64×32, ícone em PNG 16×16 e textura da espada em PNG 16×16, todos com canal alpha
 - arquivos-fonte e releases prontas para uso obrigatório pelo servidor
 
-O fallback Bedrock/Geyser do Miner Helmet é fornecido pelo IcarusRPG em Base64; este repositório contém o visual transparente usado pelo cliente Java.
+No Bedrock/Geyser, o item-base continua sendo um capacete de couro até que exista um pack Bedrock e um mapeamento próprios; ele não depende mais de perfil Base64.
 
 ## Referência das POCs
 

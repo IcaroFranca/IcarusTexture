@@ -2,7 +2,7 @@
 
 Resource pack do IcarusRPG para **Minecraft Java 26.2**.
 
-O **Miner Helmet** usa `minecraft:leather_helmet` como item-base, com item model próprio no inventário e uma textura de equipamento transparente quando vestido. O rosto e a skin do jogador permanecem visíveis sob as tiras e os detalhes do capacete.
+A **Miner's Armor** usa as quatro peças de couro como itens-base, com ícones próprios e um equipment asset compartilhado. O conjunto combina capacete marrom com lâmpada, jaqueta azul-grafite, arnês e cinto de couro, reforços metálicos e botas escuras. O rosto e a skin do jogador permanecem visíveis sob o capacete.
 
 A **Undead's Sword** usa um item model customizado (16×16) aplicado pelo IcarusRPG via componente `minecraft:item_model`.
 
@@ -32,10 +32,10 @@ IcarusTexture/
                 └── undead_sword.json
 ```
 
-O identificador do item model e do equipamento do capacete é:
+O identificador do equipment asset do conjunto é:
 
 ```text
-icarus:miner_helmet
+icarus:miner_armor
 ```
 
 O identificador do item model da espada é:

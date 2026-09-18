@@ -36,6 +36,7 @@ O identificador do equipment asset do conjunto é:
 
 ```text
 icarus:miner_armor
+icarus:menu_background
 ```
 
 O identificador do item model da espada é:

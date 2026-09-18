@@ -1,0 +1,20 @@
+{
+  "providers": [
+    {
+      "type": "space",
+      "advances": {
+        "\uE001": -8,
+        "\uE002": -168
+      }
+    },
+    {
+      "type": "bitmap",
+      "file": "icarus:font/skills_main.png",
+      "ascent": 13,
+      "height": 256,
+      "chars": [
+        "\uE000"
+      ]
+    }
+  ]
+}

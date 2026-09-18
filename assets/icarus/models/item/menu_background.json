@@ -1,3 +1,31 @@
 {
-  "elements": []
+  "gui_light": "front",
+  "ambientocclusion": false,
+  "textures": {
+    "background": "icarus:item/menu_background"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 8],
+      "to": [16, 16, 8.01],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#background"
+        },
+        "south": {
+          "uv": [0, 0, 16, 16],
+          "texture": "#background"
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [0, 180, 0],
+      "translation": [0, 0, 0],
+      "scale": [1.125, 1.125, 1]
+    }
+  }
 }

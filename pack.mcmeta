@@ -1,6 +1,8 @@
 {
   "pack": {
     "pack_format": 88,
-    "description": "IcarusTexture 0.5.3 - Minecraft Java 26.2"
+    "min_format": 88,
+    "max_format": 88,
+    "description": "IcarusTexture 0.5.4 - Minecraft Java 26.2"
   }
 }

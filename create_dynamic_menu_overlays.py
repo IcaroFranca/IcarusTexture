@@ -38,6 +38,6 @@ def slot_rows() -> None:
 
 
 OUT.mkdir(parents=True, exist_ok=True)
-base(3)
-base(6)
+for row_count in range(1, 7):
+    base(row_count)
 slot_rows()

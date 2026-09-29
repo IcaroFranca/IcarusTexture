@@ -2,6 +2,8 @@
 
 Resource pack do IcarusRPG para **Minecraft Java 26.2**.
 
+As descrições de atributos usam uma fonte de ícones construída com sprites vanilla para Vida, Defesa, Mana, atributos de combate e bônus de coleta. Comidas usam a apresentação compacta do AppleSkin. Itens com Tier recebem uma moldura própria na tooltip, seguindo a mesma cor do Tier E ao Mythic.
+
 A **Miner's Armor** usa as quatro peças de couro como itens-base, com ícones próprios e um equipment asset compartilhado. O conjunto combina capacete marrom com lâmpada, jaqueta azul-grafite, arnês e cinto de couro, reforços metálicos e botas escuras. O rosto e a skin do jogador permanecem visíveis sob o capacete.
 
 A **Undead's Sword** usa um item model customizado (16×16) aplicado pelo IcarusRPG via componente `minecraft:item_model`.
@@ -62,6 +64,8 @@ Teste a cabeça no inventário, na mão, colocada no mundo e equipada pelo jogad
 
 - Minecraft Java 26.2 (`pack_format` 88)
 - namespace `icarus`
+- ícones compactos de atributos nas lores e no HUD
+- molduras de tooltip nas cores dos Tiers E, D, C, B, A, S e Mythic
 - textura equipada do capacete em PNG 64×32, ícone em PNG 16×16 e textura da espada em PNG 16×16, todos com canal alpha
 - arquivos-fonte e releases prontas para uso obrigatório pelo servidor
 
@@ -69,5 +73,6 @@ No Bedrock/Geyser, o item-base continua sendo um capacete de couro até que exis
 
 ## Referência das POCs
 
+- Os sprites de fome seguem o HUD vanilla; os sprites fracionados de saturação vêm do [AppleSkin](https://github.com/squeek502/AppleSkin), disponibilizado sob Unlicense.
 - A cabeça foi baseada na textura [Miner Helmet #26723](https://minecraft-heads.com/custom-heads/head/26723-miner-helmet), adaptada para testar transparência em uma textura local do resource pack.
 - A espada foi baseada numa referência de pixel art fornecida diretamente (lâmina verde com aresta clara e acentos vermelhos, cabo de madeira), reproduzida pixel a pixel.

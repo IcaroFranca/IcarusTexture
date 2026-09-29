@@ -1,0 +1,13 @@
+{
+  "layers": {
+    "humanoid": [
+      { "texture": "icarus:mushroom_armor" }
+    ],
+    "humanoid_baby": [
+      { "texture": "icarus:mushroom_armor" }
+    ],
+    "humanoid_leggings": [
+      { "texture": "icarus:mushroom_armor" }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "icarus:lapis_armor"
+      }
+    ],
+    "humanoid_baby": [
+      {
+        "texture": "icarus:lapis_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "icarus:lapis_armor"
+      }
+    ]
+  }
+}

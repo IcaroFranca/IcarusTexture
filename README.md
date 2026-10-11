@@ -56,6 +56,7 @@ Instale o repositório como resource pack ou compacte o conteúdo da raiz em um 
 /give @s minecraft:iron_sword[minecraft:item_model="icarus:undead_sword"]
 /give @s minecraft:diamond_sword[minecraft:item_model="icarus:knight_killer"]
 /give @s minecraft:golden_sword[minecraft:item_model="icarus:emerald_sword"]
+/give @s minecraft:diamond_sword[minecraft:item_model="icarus:leaping_sword"]
 /give @s minecraft:leather_chestplate[minecraft:item_model="icarus:emerald_chestplate",minecraft:dyed_color=65280]
 /give @s minecraft:iron_axe[minecraft:item_model="icarus:spruce_axe"]
 /give @s minecraft:golden_axe[minecraft:item_model="icarus:treecapitator"]

@@ -54,6 +54,7 @@ Instale o repositório como resource pack ou compacte o conteúdo da raiz em um 
 ```mcfunction
 /give @s minecraft:leather_helmet[minecraft:item_model="icarus:miner_helmet",minecraft:equippable={slot:"head",asset_id:"icarus:miner_helmet"}]
 /give @s minecraft:iron_sword[minecraft:item_model="icarus:undead_sword"]
+/give @s minecraft:diamond_sword[minecraft:item_model="icarus:knight_killer"]
 /give @s minecraft:iron_axe[minecraft:item_model="icarus:spruce_axe"]
 /give @s minecraft:golden_axe[minecraft:item_model="icarus:treecapitator"]
 ```

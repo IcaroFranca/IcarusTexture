@@ -60,6 +60,8 @@ Instale o repositório como resource pack ou compacte o conteúdo da raiz em um 
 /give @s minecraft:leather_chestplate[minecraft:item_model="icarus:emerald_chestplate",minecraft:dyed_color=65280]
 /give @s minecraft:iron_axe[minecraft:item_model="icarus:spruce_axe"]
 /give @s minecraft:golden_axe[minecraft:item_model="icarus:treecapitator"]
+/give @s minecraft:fishing_rod[minecraft:item_model="icarus:magma_rod"]
+/give @s minecraft:cooked_cod[minecraft:item_model="icarus:magma_fish"]
 ```
 
 Teste a cabeça no inventário, na mão, colocada no mundo e equipada pelo jogador. Teste a espada no inventário e na mão.

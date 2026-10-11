@@ -62,6 +62,7 @@ Instale o repositório como resource pack ou compacte o conteúdo da raiz em um 
 /give @s minecraft:golden_axe[minecraft:item_model="icarus:treecapitator"]
 /give @s minecraft:fishing_rod[minecraft:item_model="icarus:magma_rod"]
 /give @s minecraft:cooked_cod[minecraft:item_model="icarus:magma_fish"]
+/give @s minecraft:wheat_seeds[minecraft:item_model="icarus:tomato_seeds"]
 ```
 
 Teste a cabeça no inventário, na mão, colocada no mundo e equipada pelo jogador. Teste a espada no inventário e na mão.

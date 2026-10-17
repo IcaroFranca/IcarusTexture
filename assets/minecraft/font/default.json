@@ -3,8 +3,8 @@
     {
       "type": "space",
       "advances": {
-        "\uE001": -8,
-        "\uE002": -169,
+        "\uE001": -48,
+        "\uE002": -209,
         "\uE020": -1,
         "\uE021": 17,
         "\uE022": 35,
@@ -38,7 +38,7 @@
     {
       "type": "bitmap",
       "file": "icarus:font/menu_base_6.png",
-      "ascent": 13,
+      "ascent": 33,
       "height": 256,
       "chars": [
         "\uE000"
@@ -47,7 +47,7 @@
     {
       "type": "bitmap",
       "file": "icarus:font/menu_base_3.png",
-      "ascent": 13,
+      "ascent": 33,
       "height": 256,
       "chars": [
         "\uE003"
@@ -56,7 +56,7 @@
     {
       "type": "bitmap",
       "file": "icarus:font/menu_base_1.png",
-      "ascent": 13,
+      "ascent": 33,
       "height": 256,
       "chars": [
         "\uE004"
@@ -65,7 +65,7 @@
     {
       "type": "bitmap",
       "file": "icarus:font/menu_base_2.png",
-      "ascent": 13,
+      "ascent": 33,
       "height": 256,
       "chars": [
         "\uE005"
@@ -74,7 +74,7 @@
     {
       "type": "bitmap",
       "file": "icarus:font/menu_base_4.png",
-      "ascent": 13,
+      "ascent": 33,
       "height": 256,
       "chars": [
         "\uE006"
@@ -83,7 +83,7 @@
     {
       "type": "bitmap",
       "file": "icarus:font/menu_base_5.png",
-      "ascent": 13,
+      "ascent": 33,
       "height": 256,
       "chars": [
         "\uE007"

@@ -22,8 +22,18 @@
         "\uE035": -108,
         "\uE036": -126,
         "\uE037": -144,
-        "\uE038": -162
+        "\uE038": -162,
+        "\uE101": -48
       }
+    },
+    {
+      "type": "bitmap",
+      "file": "icarus:font/menu_theme_skills.png",
+      "ascent": 33,
+      "height": 256,
+      "chars": [
+        "\uE100"
+      ]
     },
     {
       "type": "bitmap",

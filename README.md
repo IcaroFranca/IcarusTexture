@@ -84,3 +84,4 @@ No Bedrock/Geyser, o item-base continua sendo um capacete de couro até que exis
 - Os sprites de fome seguem o HUD vanilla; os sprites fracionados de saturação vêm do [AppleSkin](https://github.com/squeek502/AppleSkin), disponibilizado sob Unlicense.
 - A cabeça foi baseada na textura [Miner Helmet #26723](https://minecraft-heads.com/custom-heads/head/26723-miner-helmet), adaptada para testar transparência em uma textura local do resource pack.
 - A espada foi baseada numa referência de pixel art fornecida diretamente (lâmina verde com aresta clara e acentos vermelhos, cabo de madeira), reproduzida pixel a pixel.
+- O modelo do mob "Redstone Monstrosity" é de [Meterious no Sketchfab](https://sketchfab.com/), licenciado sob CC BY 4.0. Fonte em `source/redstone_monstrosity/`; convertido por `tools/convert_mob.py` (testado por `tools/mob_check.py`).
